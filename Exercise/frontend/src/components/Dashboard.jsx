@@ -10,7 +10,6 @@ export const Dashboard = () => {
     const [expire, setExpire] = useState('');
     const [users, setUsers] = useState([]);
     const navigate = useNavigate();
-1
     useEffect(() => {
         const fetchData = async () => {
             await refreshToken();
