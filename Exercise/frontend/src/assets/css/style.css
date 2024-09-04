@@ -1,0 +1,16 @@
+/* styles.css */
+.custom-box {
+    border: 2px solid #4a4a4a; /* Border untuk box */
+    border-radius: 8px;
+  }
+  
+  .custom-input {
+    border: 2px solid #4a4a4a; /* Border untuk input fields */
+  }
+  
+  /* Mengubah warna placeholder menjadi hitam */
+  .custom-input::placeholder {
+    color: black;
+    opacity: 1; /* Memastikan placeholder terlihat jelas */
+  }
+  

@@ -1,0 +1,31 @@
+GET http://localhost:5000/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsIm5hbWUiOiJEYW5pZWwgQXVndXN0aWFuIEdpcnNhbmciLCJlbWFpbCI6ImRhbmllbGdpcnNhbmc2N0BnbWFpbC5jb20iLCJpYXQiOjE3MjUyNTA5NjgsImV4cCI6MTcyNTI1MDk4M30.7Sha8EsyXVRHQHqBifMITnZictKYc4vkF4Ovpv3a0OU
+
+
+
+###
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "name": "Daniel 2",
+    "email": "daniel67@gmail.com",
+    "password": "daniel123",
+    "confirmPassword": "daniel123"
+}
+
+###
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+    "email": "danielgirsang67@gmail.com",
+    "password": "daniel123"
+}
+
+###
+GET http://localhost:5000/token
+
+
+###
+DELETE http://localhost:5000/logout
